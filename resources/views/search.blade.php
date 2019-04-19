@@ -5,7 +5,15 @@
 
     <!-- ##### Archive List Posts Area Start ##### -->
 
-    
+
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+   
 
    
     <div class="vizew-archive-list-posts-area mb-80" style="margin-top: 30px;">
