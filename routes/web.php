@@ -30,3 +30,6 @@ Route::get('/search', function () {
 Route::get('/register', function () {
     return view('register');
 });
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
