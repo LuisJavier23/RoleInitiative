@@ -125,7 +125,7 @@
         {
           display: block;
           float: right;
-          height: 34px;
+          height: 35px;
           margin: -1px -2px -2px;
           width: 149px;
           margin-right: 45px;
