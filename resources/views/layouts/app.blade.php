@@ -119,15 +119,37 @@
           .topnav input[type=text] {
             border: 1px solid #ccc;
           }
-        }</style>
+        }
+        
+        .textsearchbar
+        {
+          display: block;
+          float: right;
+          height: 34px;
+          margin: -1px -2px -2px;
+          width: 149px;
+          margin-right: 45px;
+          margin-top: 9px;
+        }
+        
+        .btnsearchbar
+        {
+        display: block;
+        float: right;
+        height: 35px;
+        width: 41px;
+        margin-top: 9px;
+        }
+        
+        </style>
   
   <div class="topnav">
         <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <div>
-          <input type="text" placeholder="Search..">
-          <button type="submit"><i class="fa fa-search"></i></button>
+          <input type="text" placeholder="Search.." class="textsearchbar">
+          <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
       </div>
     @show
