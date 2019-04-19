@@ -174,15 +174,7 @@
                     }
                   
                     a.nav-link, a.nav-link:hover, a.nav-link:focus {
-                      -webkit-transition-duration: 500ms;
-                      -o-transition-duration: 500ms;
-                      transition-duration: 500ms;
-                      text-decoration: none;
-                      outline: 0 solid transparent;
-                      color: #a6a6a6;
-                      font-weight: 500;
-                      font-size: 14px;
-                      font-family: "Roboto", sans-serif;
+
                   }
                   </style>
   
