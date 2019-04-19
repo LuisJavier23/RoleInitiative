@@ -1,5 +1,5 @@
   <!-- Navigation -->
-  
+  <link rel="stylesheet" href="css/style.css">
   <script>
         $('.search-input').focus(function(){
               $(this).parent().addClass('focus');
