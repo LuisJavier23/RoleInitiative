@@ -173,8 +173,7 @@
                       }
                     }
                   
-                    a.nav-link, a.nav-link:hover, a.nav-link:focus {
-
+                  
                   }
                   </style>
   
