@@ -85,7 +85,7 @@
                 </div>
                     <h2 style="font-style: italic;color: #ff2121;font-size: 30px;">Debbuging Menu</h2>  
                 <span class="links">
-                    <a href="{{ url('home') }}" style="font-size: 25px;border-style: double;border-color: cadetblue;">-Home-</a>
+                    <a href="{{ url('landing') }}" style="font-size: 25px;border-style: double;border-color: cadetblue;">-Home-</a>
                 </span>
                 <span class="links">
                     <a href="{{ url('characters') }}" style="font-size: 25px;border-style: double;border-color: cadetblue;">-Characters-</a>
