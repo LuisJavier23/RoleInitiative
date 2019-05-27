@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('landing');
+    return view('welcome');
 });
 
 Route::get('/home', function () {
@@ -37,4 +37,4 @@ Route::get('/landing', function () {
 
 Auth::routes();
 
-//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@index')->name('home');
