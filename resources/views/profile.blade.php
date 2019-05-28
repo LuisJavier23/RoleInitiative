@@ -10,12 +10,30 @@
   background-color: #753918;
     border-color: #753918;
 }
+.UserIconProfile
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 2000px;
+    margin-left: 20px;
+    margin-top: -60px;
+}
+
+.ProfileName
+{
+text-align: center;
+    display: inline-block;
+    margin-left: 112px;
+    font-size: 100px;
+    margin-top: 35px;
+}
+    
 </style>
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4 brickwall">
-        <div>
-            <img class="UserIcon" src="/images/default.jpg" alt="">
-    <h1 class="display-3 DragonText CoolTittle" style="text-align: center;">{{$user->name}}</h1>
+        <div style="align-items: inherit;text-align: center;">
+            <img class="UserIconProfile" src="/images/default.jpg" alt="" style>
+    <h1 class="display-3 DragonText CoolTittle" class="ProfileName">{{$user->name}}</h1>
 </div>
     </header>
 
