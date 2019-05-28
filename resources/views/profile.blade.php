@@ -27,6 +27,16 @@ text-align: center;
     font-size: 100px;
     margin-top: 35px;
 }
+.DivUpload{
+margin-left: auto;
+    margin-right: auto;
+    background: #2e5353;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 70%;
+    border-radius: 20px;
+    color: black;
+}
     
 </style>
     <!-- Jumbotron Header -->
@@ -38,12 +48,12 @@ text-align: center;
     </header>
 
   <!-- /.container -->
-            <div>
+            <div class="DivUpload">
                     <form enctype="multipart/form-data"action="/profile" method="POST">
                         <label>Update Profile Image</label>
-                        <input type="file" name="avatar" id="">
+                        <input type="file" name="avatar" style="margin-top: 5px;">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="submit" value="" class="btn btn-sm btn-primary">
+                    <input type="submit" value="Update" class="btn btn-sm" style="ackground-color: #1b1c1d;border-color: #1b1c1d;">
                     </form>
             </div>
   <!-- Footer -->
