@@ -143,7 +143,7 @@
         }
         .topnav
         {
-          background: #1c1a18;
+          background: #4e1e1e;
           margin-top: -60px;
           position: -webkit-sticky;
           position: sticky;
@@ -155,7 +155,7 @@
         </style>
   
     <div class="topnav">
-        <a class="active" href="#home">Home</a>
+        <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
         <div style="margin-right: 30%;margin-top: 2px;">
