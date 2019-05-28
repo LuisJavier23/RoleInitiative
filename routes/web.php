@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return Redirect::action('Auth\AuthController@showLoginForm');
+    return Redirect::action('Auth\LoginController@showLoginForm');
 });
 
 Route::get('/debug', function () {
