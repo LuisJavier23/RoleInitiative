@@ -155,7 +155,8 @@
           max-width: 50px;
           max-height: 50px;
           border-radius: 2000px;
-          margin-left: 20px; 
+          margin-left: 20px;
+          margin-top: -2px;
         }
         
         </style>
@@ -168,7 +169,7 @@
           <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
           <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
-        <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;"><label class="DragonText" style="font-size: 25px;">Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
+        <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;"><label  style="font-family: BreatheFire;font-style: italic;font-size: 25px;margin-top: 5px;">Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
          
       </div>
     @show
