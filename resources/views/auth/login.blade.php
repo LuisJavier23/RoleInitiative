@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('sidebar')
+{{-- Ah ti no te sale, callate!! >:c --}}
+@endsection
 @section('content')
 <div class="container">
         <div style="text-align: center;">
