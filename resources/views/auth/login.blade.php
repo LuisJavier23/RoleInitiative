@@ -1,27 +1,13 @@
 @extends('layouts.app')
-@section('sidebar')
-{{-- Ah ti no te sale, callate!! >:c --}}
-@endsection
+
 @section('content')
 <div class="container">
-        <style>
-                form {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%); /* IE 9 */
-            -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
-        }
-                </style>
-
-<div style="text-align: center;">
-        <h1 style="font-size: 200px;font-style: italic;color: white;margin-top: 65px; font-family: BreatheFire;">Initiative</h1>
-        </div>
-        
+        <div style="text-align: center;">
+                <h1 style="font-size: 200px;font-style: italic;color: white;margin-top: 65px; font-family: BreatheFire;">Initiative</h1>
+                </div>
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card" style="background-color: #9d9696e3;">
+            <div class="card">
                 <div class="card-header">{{ __('Login') }}</div>
 
                 <div class="card-body">
