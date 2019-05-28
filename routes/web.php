@@ -42,3 +42,4 @@ Route::get('/landing', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('new-project', array('uses' => 'AutoLoginController@load'));
