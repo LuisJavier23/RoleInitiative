@@ -17,7 +17,7 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('/profile','User@Controller@Profile');
+Route::get('/profile','UserController@profile');
 
 Route::get('/home', function () {
     return view('login');
