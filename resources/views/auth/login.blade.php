@@ -66,8 +66,8 @@
                         </div>
 
                         <div class="form-group row mb-0">
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary">
+                            <div class="col-md-12" style="text-align: center;">
+                                <button type="submit" class="btn btn-primary" style="width: 80%;background: #671919;border-color: #671919;">
                                     {{ __('Login') }}
                                 </button>
 
