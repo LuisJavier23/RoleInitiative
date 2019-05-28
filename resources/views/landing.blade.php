@@ -30,6 +30,25 @@
     -webkit-border-radius: 6px;
     border-radius: 6px;
     cursor: pointer;
+    text-align: center;
+}
+.fakebutton:hover
+{
+  padding: 10px 20px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Raleway;
+    font-weight: 200;
+    display: block;
+    color: white;
+    position: relative;
+    border: 5px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.5);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
 }
         </style>
         <div class="menu">
