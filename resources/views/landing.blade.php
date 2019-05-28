@@ -29,7 +29,7 @@
 <div class="form" style="margin-top: 120px;">
  
   <div class="forceColor"></div>
-  <button class="submit" id="submit" href="{{ url('login') }}">Login</button>
+<a href="{{ url('login') }}">Login</a>
 </div>
 <p class="text-center" style="color:#ececec;margin-top: 340px;">Don't have an account? <a href="{{ url('register') }}">Register</a> </p>   
         @endsection 
