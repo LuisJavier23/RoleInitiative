@@ -134,12 +134,23 @@
         
         .btnsearchbar
         {
-        display: block;
-        float: right;
-        height: 35px;
-        width: 41px;
-        margin-top: 9px;
+          display: block;
+          float: right;
+          height: 36.5px;
+          width: 41px;
+          margin-top: 7.4px;
+          margin-right: -53%;
         }
+        .topnav
+        {
+          background: #1c1a18;
+          margin-top: -60px;
+          position: -webkit-sticky;
+          position: sticky;
+          top: 0;
+        }
+
+       
 
         </style>
   
@@ -147,8 +158,8 @@
         <a class="active" href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#contact">Contact</a>
-        <div>
-          <input type="text" placeholder="Search.." class="textsearchbar">
+        <div style="margin-right: 30%;margin-top: 2px;">
+          <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
           <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
       </div>
