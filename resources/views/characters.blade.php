@@ -66,7 +66,7 @@
   <!-- /.container -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 bg-dark" style="padding-bottom: 0.5rem!important;padding-top: 0.5rem!important;">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Initiative 2019</p>
     </div>
