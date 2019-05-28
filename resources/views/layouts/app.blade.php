@@ -136,9 +136,9 @@
         {
           display: block;
           float: right;
-          height: 36.5px;
+          height: 36.3px;
           width: 41px;
-          margin-top: 7.4px;
+          margin-top: 7.3px;
           margin-right: -53%;
         }
         .topnav
@@ -152,10 +152,10 @@
 
         .UserIcon
         {
-          max-width: 60px;
-          height: 60px;
+          max-width: 50px;
+          max-height: 50px;
           border-radius: 2000px;
-          margin-left: 20px;  
+          margin-left: 20px; 
         }
         
         </style>
@@ -168,7 +168,7 @@
           <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
           <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
-        <a href="#Usuario" style="position: absolute;margin-left: 85%;margin-top: -15px;"><label>Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
+        <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;"><label class="DragonText" style="font-size: 25px;">Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
          
       </div>
     @show
