@@ -38,7 +38,14 @@ text-align: center;
     </header>
 
   <!-- /.container -->
-
+            <div>
+                    <form enctype="multipart/form-data"action="/profile" method="POST">
+                        <label>Update Profile Image</label>
+                        <input type="file" name="avatar" id="">
+                    <input type="hidden" name="_token" value="{{csrf_token()}}">
+                    <input type="submit" value="" class="btn btn-sm btn-primary">
+                    </form>
+            </div>
   <!-- Footer -->
   <footer class="py-5 bg-dark" style="padding-bottom: 0.5rem!important;padding-top: 0.5rem!important;">
     <div class="container">
