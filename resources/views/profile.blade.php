@@ -33,7 +33,7 @@ text-align: center;
     <header class="jumbotron my-4 brickwall">
         <div style="align-items: inherit;text-align: center;">
             <img class="UserIconProfile" src="/images/default.jpg" alt="" style>
-    <h1 class="display-3 DragonText CoolTittle" class="ProfileName">{{$user->name}}</h1>
+    <h1 class="display-3 DragonText CoolTittle ProfileName">{{$user->name}}</h1>
 </div>
     </header>
 
