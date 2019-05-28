@@ -14,6 +14,23 @@
     -ms-transform: translate(-50%, -50%); /* IE 9 */
     -webkit-transform: translate(-50%, -50%); /* Chrome, Safari, Opera */	    
 }
+.fakebutton
+{
+  padding: 10px 20px;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: Raleway;
+    font-weight: 200;
+    display: block;
+    color: white;
+    position: relative;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    background: rgba(255, 255, 255, 0.5);
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
         </style>
         <div class="menu">
   <ul class="mainmenu clearfix">
@@ -29,7 +46,7 @@
 <div class="form" style="margin-top: 120px;">
  
   <div class="forceColor"></div>
-  <button class="submit" id="submit" href="{{ url('login') }}">Login</button> 
+   <a href="{{ url('login') }}" class="fakebutton">Login</a>
 </div>
 <p class="text-center" style="color:#ececec;margin-top: 340px;">Don't have an account? <a href="{{ url('register') }}">Register</a> </p>   
         @endsection 
