@@ -13,7 +13,10 @@
 </style>
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4 brickwall">
-      <h1 class="display-3 DragonText CoolTittle" style="text-align: center;">Your Face Soon</h1>
+        <div>
+            <img class="UserIcon" src="/images/default.jpg" alt="">
+    <h1 class="display-3 DragonText CoolTittle" style="text-align: center;">{{$user->name}}</h1>
+</div>
     </header>
 
   <!-- /.container -->
