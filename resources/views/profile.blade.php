@@ -28,7 +28,7 @@ text-align: center;
     margin-top: 35px;
 }
 .DivUpload{
-margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     background: #2e5353;
     text-align: center;
@@ -38,6 +38,15 @@ margin-left: auto;
     color: black;
 }
     
+
+    .UpdateButton
+    {
+        background-color: #1b1c1d !important;
+        border-color: #1b1c1d;
+        color: white;
+        margin-left: -61px;
+        margin-top: -5px;
+    }
 </style>
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4 brickwall">
@@ -53,7 +62,7 @@ margin-left: auto;
                         <label>Update Profile Image</label>
                         <input type="file" name="avatar" style="margin-top: 5px;">
                     <input type="hidden" name="_token" value="{{csrf_token()}}">
-                    <input type="submit" value="Update" class="btn btn-sm" style="ackground-color: #1b1c1d;border-color: #1b1c1d;">
+                    <input type="submit" value="Update" class="btn btn-sm UpdateButton">
                     </form>
             </div>
   <!-- Footer -->
