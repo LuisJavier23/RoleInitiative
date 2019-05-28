@@ -183,7 +183,7 @@
           </div>
         </nav>
       
-
+        @endsection
     @show
     @yield('content')
 </body>
