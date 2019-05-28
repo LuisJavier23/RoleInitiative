@@ -172,8 +172,10 @@
     
     
      <div class="topnav">
-            <a href="#home" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Characters</a>
-            <a href="#about" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Campains</a>
+            <a href="#Characters" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Characters</a>
+            <a href="#Campains" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Campains</a>
+            <a href="{{ url('/auth/logout') }}" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Logout</a>
+           
             <div style="margin-right: 30%;margin-top: 2px;">
               <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
               <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
