@@ -163,6 +163,11 @@
            list-style-type: none;
         }
 
+        .show
+        {
+          position: fixed;
+        }
+
             </style>
     
     
@@ -181,7 +186,7 @@
                     <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px; margin-top: 10px;">{{ Auth::user()->name ?? "Usuario" }} </label>
                     <img class="UserIcon" src="/images/default.jpg" alt="">
                   </a>
-                <ul class="dropdown-menu" role="menu" style="position: fixed !important;">
+                <ul class="dropdown-menu" role="menu">
                   <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
                 </ul>
               </li>
