@@ -150,8 +150,11 @@
           top: 0;
         }
 
-       
-
+        .UserIcon
+        {
+        
+        }
+        
         </style>
   
     <div class="topnav">
@@ -162,7 +165,7 @@
           <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
           <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
-        <a href="#Usuario" style="position: absolute;margin-left: 88%;"><label>Nombre Usuario</label></a>
+        <a href="#Usuario" style="position: absolute;margin-left: 88%;"><label>Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
          
       </div>
     @show
