@@ -52,18 +52,19 @@
     <link href='https://fonts.googleapis.com/css?family=Raleway:300,200' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
       <!-- Characters -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <!--<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
       <link href="css/heroic-features.css" rel="stylesheet">
  <!-- Search -->
 
     {{-- Hojas de Javascript --}}
     <script  src="js/Homeindex.js"></script>
      <!-- Characters -->
-     <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Search -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
 
-    
+   
 </head>
 <body>
         @section('sidebar')
