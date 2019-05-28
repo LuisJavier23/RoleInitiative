@@ -179,17 +179,11 @@
               <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
               <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
             </div>
-           
-            <li class="dropdown">
-
-                <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="position: absolute; margin-left: 75%;margin-top: -40px;">
+        
+                <a  href="#" style="position: absolute; margin-left: 75%;margin-top: -40px;">
                     <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px; margin-top: 10px;">{{ Auth::user()->name ?? "Usuario" }} </label>
                     <img class="UserIcon" src="/images/default.jpg" alt="">
                   </a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
-                </ul>
-              </li>
   
           </div>
     
