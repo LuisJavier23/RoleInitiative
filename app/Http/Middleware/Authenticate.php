@@ -15,18 +15,10 @@ class Authenticate extends Middleware
 
 
      
-                                    ///
-
-
-    public function handle($request, Closure $next)
+    protected function redirectTo($request)
     {
-        //check here if the user is authenticated
-        if ( ! $this->auth->user() )
-        {
-            return view('landing');
+        if (! $request->expectsJson()) {
+            return route('login');
         }
-    
-        return $next($request);
     }
-
 }

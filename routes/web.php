@@ -17,15 +17,9 @@ Route::get('/', function () {
     return view('landing');
 });
 
-Route::get('/login', function () {
+Route::get('/home', function () {
     return view('login');
 });
-
-Route::group( ['middleware' => 'auth' ], function()
-{
-    return view('characters');
-});
-
 
 Route::get('/characters', function () {
     return view('characters');
