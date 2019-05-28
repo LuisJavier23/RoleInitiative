@@ -171,11 +171,17 @@
               <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
               <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
             </div>
-            <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;">
-              <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px;margin-top: 5px;">Nombre Usuario</label>
-              <img class="UserIcon" src="/images/default.jpg" alt="">
-            </a>
-             
+           
+            <li class="dropdown">
+                <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;">
+                    <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px;margin-top: 5px;">{{ Auth::user()->name }}</label>
+                    <img class="UserIcon" src="/images/default.jpg" alt="">
+                  </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
+                </ul>
+              </li>
+  
           </div>
     
           <nav class="navbar navbar-default">
