@@ -24,7 +24,8 @@
 
 </style>
 <div class="container">
-  
+        <div class="col-md-12">
+                <div class="col-md-6">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card card_style">
@@ -94,9 +95,12 @@
             </div>
         </div>
     </div>
-
+</div>
+<div class="col-md-6">
     <div style="text-align: center;">
             <h1 style="font-size: 200px;font-style: italic;color: white;margin-top: 65px; font-family: BreatheFire;">Initiative</h1>
             </div>
+        </div>
+    </div>
 </div>
 @endsection
