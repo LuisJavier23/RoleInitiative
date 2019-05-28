@@ -21,9 +21,11 @@ Route::get('/login', function () {
     return view('login');
 });
 
-Route::get('/home', function () {
+Route::group( ['middleware' => 'auth' ], function()
+{
     return view('characters');
 });
+
 
 Route::get('/characters', function () {
     return view('characters');
