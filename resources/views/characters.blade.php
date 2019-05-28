@@ -4,7 +4,13 @@
 
   <!-- Page Content -->
   <div class="container">
-
+<style>
+.CharacterInfobtn
+{
+  background-color: #753918;
+    border-color: #753918;
+}
+</style>
     <!-- Jumbotron Header -->
     <header class="jumbotron my-4 brickwall">
       <h1 class="display-3 DragonText CoolTittle" style="text-align: center;">Your Characters</h1>
@@ -21,7 +27,7 @@
             <p class="card-text">Mysterious  Backstory Stuff</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Character Info</a>
+            <a href="#" class="btn btn-primary CharacterInfobtn">Character Info</a>
           </div>
         </div>
       </div>
@@ -34,7 +40,7 @@
             <p class="card-text">Sad Backstory Stuff</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Character Info</a>
+            <a href="#" class="btn btn-primary CharacterInfobtn">Character Info</a>
           </div>
         </div>
       </div>
@@ -48,7 +54,7 @@
             <p class="card-text"> WTF!! Backstory Stuff</p>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary">Character Info</a>
+            <a href="#" class="btn btn-primary CharacterInfobtn">Character Info</a>
           </div>
         </div>
       </div>
