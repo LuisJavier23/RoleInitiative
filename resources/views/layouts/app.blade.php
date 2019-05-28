@@ -172,15 +172,14 @@
     
     
      <div class="topnav">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
+            <a href="#home" style="font-family: BreatheFire;font-style: italic;">Characters</a>
+            <a href="#about" style="font-family: BreatheFire;font-style: italic;">Campains</a>
             <div style="margin-right: 30%;margin-top: 2px;">
               <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
               <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
             </div>
         
-                <a  href="#" style="position: absolute; margin-left: 75%;margin-top: -40px;">
+                <a  href="#" style="position: absolute;margin-left: 80%;margin-top: -16px;">
                     <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px; margin-top: 10px;">{{ Auth::user()->name ?? "Usuario" }} </label>
                     <img class="UserIcon" src="/images/default.jpg" alt="">
                   </a>
