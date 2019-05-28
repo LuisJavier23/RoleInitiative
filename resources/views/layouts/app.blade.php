@@ -152,7 +152,10 @@
 
         .UserIcon
         {
-        
+          max-width: 60px;
+          height: 60px;
+          border-radius: 2000px;
+          margin-left: 20px;  
         }
         
         </style>
@@ -165,7 +168,7 @@
           <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
           <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
-        <a href="#Usuario" style="position: absolute;margin-left: 88%;"><label>Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
+        <a href="#Usuario" style="position: absolute;margin-left: 85%;margin-top: -15px;"><label>Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
          
       </div>
     @show
