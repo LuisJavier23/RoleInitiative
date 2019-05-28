@@ -173,8 +173,9 @@
             </div>
            
             <li class="dropdown">
+
                 <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;">
-                    <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px;margin-top: 5px;">{{ Auth::user()->name }}</label>
+                    <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px;margin-top: 5px;">{{ Auth::user()->name ?? "Usuario" }} </label>
                     <img class="UserIcon" src="/images/default.jpg" alt="">
                   </a>
                 <ul class="dropdown-menu" role="menu">
