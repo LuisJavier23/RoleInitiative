@@ -11,16 +11,21 @@
 |
 */
 
+Route::group(['middleware' => ['web','auth']], function () {
+
+    
 Route::get('/', function () {
     return view('login');
 });
 
+
+});
 Route::get('/debug', function () {
     return view('welcome');
 });
 
 Route::get('/home', function () {
-    return view('landing');
+    return view('login');
 });
 
 Route::get('/characters', function () {
