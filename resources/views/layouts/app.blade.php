@@ -161,17 +161,29 @@
         
         </style>
   
-    <div class="topnav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-        <div style="margin-right: 30%;margin-top: 2px;">
-          <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
-          <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
-        </div>
-        <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;"><label  style="font-family: BreatheFire;font-style: italic;font-size: 25px;margin-top: 5px;">Nombre Usuario</label><img class="UserIcon" src="/images/default.jpg" alt=""></a>
-         
-      </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li><a href="{{ url('/') }}">Home</a></li>
+              </ul>
+      
+              <ul class="nav navbar-nav navbar-right">
+                @if (Auth::guest())
+                  <li><a href="{{ url('/auth/login') }}">Login</a></li>
+                  <li><a href="{{ url('/auth/register') }}">Register</a></li>
+                @else
+                  <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="{{ url('/auth/logout') }}">Logout</a></li>
+                    </ul>
+                  </li>
+                @endif
+              </ul>
+            </div>
+          </div>
+        </nav>
+      
+
     @show
     @yield('content')
 </body>
