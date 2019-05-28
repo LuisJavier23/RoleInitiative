@@ -157,7 +157,7 @@
               max-height: 50px;
               border-radius: 2000px;
               margin-left: 20px;
-              margin-top: -2px;
+              margin-top: -10px;
             }
             
             </style>
@@ -174,8 +174,8 @@
            
             <li class="dropdown">
 
-                <a href="#Usuario" style="position: absolute;margin-left: 80%;margin-top: -15px;">
-                    <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px;margin-top: 5px;">{{ Auth::user()->name ?? "Usuario" }} </label>
+                <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="position: absolute; margin-left: 75%;margin-top: -40px;">
+                    <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px; margin-top: 10px;">{{ Auth::user()->name ?? "Usuario" }} </label>
                     <img class="UserIcon" src="/images/default.jpg" alt="">
                   </a>
                 <ul class="dropdown-menu" role="menu">
