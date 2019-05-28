@@ -3,13 +3,22 @@
 {{-- Ah ti no te sale, callate!! >:c --}}
 @endsection
 @section('content')
+<style>
+.card_style
+{
+    background: #0f02029c;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
 <div class="container">
         <div style="text-align: center;">
                 <h1 style="font-size: 200px;font-style: italic;color: white;margin-top: 65px; font-family: BreatheFire;">Initiative</h1>
                 </div>
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card" style="background: #0f02029c;">
+            <div class="card card_style">
                 <div class="card-header" style="color: white;">{{ __('Login') }}</div>
 
                 <div class="card-body">
