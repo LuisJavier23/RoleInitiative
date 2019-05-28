@@ -11,9 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return Redirect::action('Auth\AutoLoginController@load');
-});
+
 
 Route::get('/debug', function () {
     return view('welcome');
@@ -39,7 +37,7 @@ Route::get('/landing', function () {
 });
 
 
-//Auth::routes();
+Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', array('uses' => 'AutoLoginController@load'));
