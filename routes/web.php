@@ -13,12 +13,16 @@
 
 
 
-Route::get('/debug', function () {
-    return view('welcome');
+Route::get('/', function () {
+    return view('landing');
+});
+
+Route::get('/login', function () {
+    return view('login');
 });
 
 Route::get('/home', function () {
-    return view('login');
+    return view('characters');
 });
 
 Route::get('/characters', function () {
@@ -40,4 +44,3 @@ Route::get('/landing', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/', array('uses' => 'AutoLoginController@load'));
