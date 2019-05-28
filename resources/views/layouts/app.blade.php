@@ -162,6 +162,7 @@
           <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
           <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
+        <a href="#Usuario">Nombre Usuario</a>
       </div>
     @show
     @yield('content')
