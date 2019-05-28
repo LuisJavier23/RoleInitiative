@@ -11,6 +11,13 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.form-control:focus {
+  border-color: #FF0000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);
+}
+
+
 </style>
 <div class="container">
         <div style="text-align: center;">
