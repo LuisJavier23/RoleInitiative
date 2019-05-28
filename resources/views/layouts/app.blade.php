@@ -144,8 +144,8 @@
         .topnav
         {
           background: #4e1e1e;
-          margin-top: -60px;
-          position: -webkit-sticky;
+          margin-top: -65px;
+          position: -webkit-sticky !important;
           position: sticky;
           top: 0;
         }
@@ -162,7 +162,8 @@
           <input type="text" placeholder="Search.." class="textsearchbar" style="width: 50%;">
           <button type="submit" class="btnsearchbar"><i class="fa fa-search"></i></button>
         </div>
-        <a href="#Usuario">Nombre Usuario</a>
+        <a href="#Usuario" style="position: absolute;margin-left: 88%;"><label>Nombre Usuario</label></a>
+         
       </div>
     @show
     @yield('content')
