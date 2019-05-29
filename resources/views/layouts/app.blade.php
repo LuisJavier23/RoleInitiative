@@ -157,7 +157,7 @@
               max-height: 50px;
               border-radius: 2000px;
               margin-left: 20px;
-              margin-top: -10px;
+              margin-top: -5px;
             }
             li {
            list-style-type: none;
@@ -183,7 +183,7 @@
         
                 <a  href="{{ url('/profile') }}" style="position: absolute;margin-left: 80%;margin-top: -16px;">
                     <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px; margin-top: 10px;">{{ Auth::user()->name ?? "Usuario" }} </label>
-                    <img class="UserIcon" src="/server/profile_pictures/{{Auth::user()->avatar?? "default.jpg"}}" alt="">
+                    <img class="UserIcon" src="/server/profile_pictures/{{Auth::user()->avatar ?? "default.jpg"}}" alt="">
                   </a>
   
           </div>
