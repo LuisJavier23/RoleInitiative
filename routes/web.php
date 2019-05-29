@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('/profile','UserController@profile');
+Route::post('/profile','UserController@update_avatar');
 
 Route::get('/home', function () {
     return view('login');
