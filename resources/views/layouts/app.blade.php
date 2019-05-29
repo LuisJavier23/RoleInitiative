@@ -171,7 +171,7 @@
             </style>
     
     
-     <div class="topnav"> <!-- Did it work?-->
+     <div class="topnav"> <!-- Did it work :c -->
             <a href="{{ url('/characters') }}" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Characters</a>
             <a href="#Campains" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Campains</a>
             <a href="{{ url('/auth/logout') }}" style="font-family: BreatheFire;font-style: italic;font-size: 20px;">Logout</a>
