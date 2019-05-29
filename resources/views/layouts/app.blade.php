@@ -183,7 +183,7 @@
         
                 <a  href="{{ url('/profile') }}" style="position: absolute;margin-left: 80%;margin-top: -16px;">
                     <label  style="font-family: BreatheFire;font-style: italic;font-size: 25px; margin-top: 10px;">{{ Auth::user()->name ?? "Usuario" }} </label>
-                    <img class="UserIcon" src="/server/profile_pictures/{{Auth::user()->avatar}}" alt="">
+                    <img class="UserIcon" src="/server/profile_pictures/{{Auth::user()->avatar?? "default.jpg"}}" alt="">
                   </a>
   
           </div>
